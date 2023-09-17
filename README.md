@@ -1,7 +1,7 @@
 # histopathologial_image_segmentation
 Histopathological Image Segmentation.<br>
 <br>
-**Please refer the codes, I have commented as elaborated as much as possible.** <br>
+**Please refer the codes, I have elaborated whats going on in comments.** <br>
 **First run main.py the system is trained and the weights are saved.** <br>
 **Then run predict.py, this one predicts for test outputs.** <br>
 
