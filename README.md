@@ -1,5 +1,5 @@
 # histopathologial_image_segmentation
-Histopathological Image Segmentation and Tumor Cellularity(A metric for estimating Cancer) Calculation.<br>
+Histopathological Image Segmentation.<br>
 <br>
 **Please refer the codes, I have commented as elaborated as much as possible.** <br>
 **First run main.py the system is trained and the weights are saved.** <br>
