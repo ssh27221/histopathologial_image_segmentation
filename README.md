@@ -1,5 +1,32 @@
 # histopathologial_image_segmentation
-Histopathological Image Segmentation and Tumor Cellularity(A metric for estimating Cancer) Calculation.
+Histopathological Image Segmentation and Tumor Cellularity(A metric for estimating Cancer) Calculation.<br>
+<br>
+**Please refer the codes, I have commented as elaborated as much as possible.** <br>
+**First run main.py the system is trained and the weights are saved.** <br>
+**Then run predict.py, this one predicts for test outputs.** <br>
+
+**Note:** The train and val directories should be in this format, (ground truth images have suffix _gt)<br>
+**train_directory**<br>
+---------**input**<br>
+--------------image1.png<br>
+--------------image2.png<br>
+(and so on..)<br>
+---------**gt**<br>
+--------------image1_gt.png<br>
+--------------image2_gt.png<br>
+(and so on..)<br>
+
+**val_directory**<br>
+---------**input**<br>
+--------------image30.png<br>
+--------------image31png<br>
+(and so on..)<br>
+---------**gt**<br>
+--------------image30_gt.png<br>
+--------------image31_gt.png<br>
+(and so on..)<br>
+
+
 I have employed ResUNet for segmentation purpose of given Histopathological Image.
 The loss function used is Weighted Categorical Cross entropy. The reason to include weights is that, if 
 we train without including weights as the background pixels are more it is easily getting classified, but 
